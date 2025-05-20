@@ -1,0 +1,106 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Header */
+  header {
+    background-color: #149797;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  header nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Layout principal */
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  /* Main */
+  main {
+    flex: 3;
+    margin-right: 20px;
+  }
+  
+  main article {
+    background: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+  }
+  
+  main img {
+    max-width: 70%;
+    border-radius: 5px;
+  }
+  
+  /* Sidebar */
+  aside {
+    flex: 1;
+    background: #949696;
+    padding: 15px;
+    border-radius: 8px;
+  }
+  
+  .perfil {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .redes {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .redes li {
+    margin: 5px 0;
+  }
+  
+  .redes a {
+    text-decoration: none;
+    color: #0d6efd;
+  }
+  
+  /* Footer */
+  footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+  
+    main {
+      margin-right: 0;
+    }
+  }
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+  
